@@ -1,0 +1,1 @@
+spi_write(BASE_ADDR_CALIB_ALG, "0x3DF", "0x00" ); %ti_distort_filter_bypass

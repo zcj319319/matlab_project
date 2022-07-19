@@ -1,0 +1,17 @@
+skewcode converge:skew_code0: 0200, skew_code1: 01D2, skew_code2: 0204, skew_code3: 01B2
+skew_code2: 1F0	skewAC_ave: -3.269570e-13	corrAC_ave: 1.685071e+03	
+skew_code2: 1F2	skewAC_ave: -3.168097e-13	corrAC_ave: 1.632857e+03	
+skew_code2: 1F4	skewAC_ave: -2.803104e-13	corrAC_ave: 1.444364e+03	
+skew_code2: 1F6	skewAC_ave: -2.068308e-13	corrAC_ave: 1.065910e+03	
+skew_code2: 1F8	skewAC_ave: -1.674995e-13	corrAC_ave: 8.630553e+02	
+skew_code2: 1FA	skewAC_ave: -1.820111e-13	corrAC_ave: 9.380171e+02	
+skew_code2: 1FC	skewAC_ave: -1.296189e-13	corrAC_ave: 6.677666e+02	
+skew_code2: 1FE	skewAC_ave: -9.319024e-14	corrAC_ave: 4.802108e+02	
+skew_code2: 200	skewAC_ave: -7.037496e-14	corrAC_ave: 3.626438e+02	
+skew_code2: 202	skewAC_ave: 7.200983e-15	corrAC_ave: -3.713246e+01	
+skew_code2: 204	skewAC_ave: 4.722290e-15	corrAC_ave: -2.444726e+01	
+skew_code2: 206	skewAC_ave: 6.970285e-14	corrAC_ave: -3.593074e+02	
+skew_code2: 208	skewAC_ave: 1.417891e-13	corrAC_ave: -7.307054e+02	
+skew_code2: 20A	skewAC_ave: 1.827692e-13	corrAC_ave: -9.419045e+02	
+skew_code2: 20C	skewAC_ave: 1.456987e-13	corrAC_ave: -7.509454e+02	
+skew_code2: 20E	skewAC_ave: 2.086259e-13	corrAC_ave: -1.075101e+03	

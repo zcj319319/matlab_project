@@ -1,0 +1,17 @@
+t = datetime('now','TimeZone','local','Format','HH_mm_ss');
+fprintf(fileID, "record time:            %s\n", t);
+code = calib.subgec_opgain_code;
+fprintf(fileID, "subgec_opgain_code:\t%u   %u   %u   %u\n", code);
+code = calib.subgec_coeff;
+fprintf(fileID, "subgec_coeff:\t        %.4f   %.4f   %.4f   %.4f\n", code);
+code = calib.bkgec_opgain_code;
+fprintf(fileID, "bkgec_opgain_code:\t    %u   %u   %u   %u\n", code);
+code = calib.gec_coeff;
+fprintf(fileID, "gec_coeff:\t            %.4f   %.4f   %.4f   %.4f\n", code);
+code = calib.tios_coeff;
+fprintf(fileID, "tios_coeff:\t            %.4f   %.4f   %.4f   %.4f\n", code);
+code = calib.tigain_coeff;
+fprintf(fileID, "tigain_coeff:\t        %.4f   %.4f   %.4f   %.4f\n", code);
+code = calib.tiskew_code;
+fprintf(fileID, "tiskew_code:\t        %u   %u   %u   %u\n", code);
+fprintf(fileID, "\n");

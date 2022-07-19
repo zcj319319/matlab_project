@@ -1,0 +1,8 @@
+spi_write_raw('0x1bc', '0x06000480');
+spi_write_raw('0x1bd', '0x323c0000');
+spi_write_raw('0x1be', '0xC0909090');
+spi_write_raw('0x1bf', '0x02804800');
+spi_write_raw('0x1c0', '0x00ffffff');
+spi_write_raw('0x1c1', '0x00000000');
+spi_write_raw('0x1c2', '0x00000000');
+spi_write_raw('0x1c3', '0x00000000');

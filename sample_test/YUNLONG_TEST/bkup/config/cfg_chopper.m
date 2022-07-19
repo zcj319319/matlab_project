@@ -1,0 +1,1 @@
+spi_write(BASE_ADDR_CALIB_ALG, "0x38B", "0x14" ); %cfg_chopper_accnum_power2

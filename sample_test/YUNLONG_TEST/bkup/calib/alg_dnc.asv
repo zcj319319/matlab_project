@@ -1,0 +1,6 @@
+spi_write(BASE_ADDR_CALIB_ALG, "0x1b"   , "0x3" ); %dnc_opgain_vth 3
+spi_write(BASE_ADDR_CALIB_ALG, "0x16"   , "
+spi_write(BASE_ADDR_CALIB_ALG, "0x10"   , "0x0" ); %dnc_off
+spi_write(BASE_ADDR_CALIB_ALG, "0x10"   , "0x1" ); %dnc_on
+pause(0.5); 
+spi_write(BASE_ADDR_CALIB_ALG, "0x10"   , "0x0" ); %dnc_off

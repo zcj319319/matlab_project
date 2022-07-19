@@ -1,0 +1,41 @@
+spi_write_raw('0x1c4', '0         ');
+spi_write_raw('0x1c5', '0         ');
+spi_write_raw('0x1c7', '2AA       ');
+spi_write_raw('0x1c8', '48        ');
+spi_write_raw('0x16c', '40000028  ');
+spi_write_raw('0x173', '40000028  ');
+spi_write_raw('0x1aa', '40000028  ');
+spi_write_raw('0x1b1', '40000028  ');
+spi_write_raw('0x1ba', '0x2007e7f0');
+spi_write_raw('0x323', '0x5ff     ');
+spi_write_raw('0x3e0', '0x0       ');
+spi_write_raw('0x3e1', '0x0       ');
+spi_write_raw('0x3e0', '0x3       ');
+spi_write_raw('0x3e1', '0x1       ');
+spi_write_raw('0x321', '0xf       ');
+spi_write_raw('0x1  ', '0x80000   ');
+spi_write_raw('0x18 ', '0x80000   ');
+spi_write_raw('0x2f ', '0x80000   ');
+spi_write_raw('0x46 ', '0x80000   ');
+spi_write_raw('0x5d ', '0x80000   ');
+spi_write_raw('0x74 ', '0x80000   ');
+spi_write_raw('0x8b ', '0x80000   ');
+spi_write_raw('0xa2 ', '0x80000   ');
+spi_write_raw('0xb9 ', '0x80000   ');
+spi_write_raw('0xd0 ', '0x80000   ');
+spi_write_raw('0x404', '0x0       ');
+spi_write_raw('0x4e0', '0x3f      ');
+spi_write_raw('0x1ba', '0x3007e7f0');
+spi_write_raw('0x404', '0x1000100 ');
+spi_write_raw('0x1c6', '0xbfff8000');
+spi_write_raw('0x1c7', '0xff2aa   ');
+spi_write_raw('0x1c4', '0x10000   ');
+spi_write_raw('0x1c4', '0x18000   ');
+spi_write_raw('0x1c4', '0x10000   ');
+spi_write_raw('0x1c4', '0x18000   ');
+spi_write_raw('0x1c4', '0x10000   ');
+spi_write_raw('0x1c4', '0x18000   ');
+spi_write_raw('0x296', '0x84000   ');
+
+
+

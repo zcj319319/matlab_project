@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>757</width>
+    <height>653</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout" stretch="1,1">
+   <item>
+    <widget class="QScrollArea" name="scrollArea">
+     <property name="widgetResizable">
+      <bool>true</bool>
+     </property>
+     <widget class="QWidget" name="scrollAreaWidgetContents">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>-150</y>
+        <width>348</width>
+        <height>783</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <layout class="QGridLayout" name="gridLayout_2">
+         <item row="0" column="0">
+          <widget class="QLabel" name="xihe_adc_test_regset">
+           <property name="text">
+            <string>xihe_adc_test_regset.m</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="2">
+          <widget class="QPushButton" name="start_xihe_adc_test_regset">
+           <property name="text">
+            <string>step1</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="0">
+          <widget class="QLabel" name="xihe_adc_test_dnc">
+           <property name="text">
+            <string>xihe_adc_test_dnc.m</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="2">
+          <widget class="QPushButton" name="start_xihe_adc_test_dnc">
+           <property name="text">
+            <string>step2</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="0">
+          <widget class="QLabel" name="xihe_adc_test">
+           <property name="text">
+            <string>xihe_adc_test.m</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="2">
+          <widget class="QPushButton" name="start_xihe_adc_test">
+           <property name="text">
+            <string>step3</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="0">
+          <widget class="QLineEdit" name="lineEdit"/>
+         </item>
+         <item row="3" column="1">
+          <widget class="QToolButton" name="toolButton">
+           <property name="text">
+            <string>...</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="2">
+          <widget class="QPushButton" name="smp_trans">
+           <property name="text">
+            <string>smp_trans</string>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="0" colspan="2">
+          <widget class="QLabel" name="xihe_adc_test_display">
+           <property name="text">
+            <string>xihe_adc_test_display.m</string>
+           </property>
+          </widget>
+         </item>
+         <item row="5" column="0">
+          <widget class="QLineEdit" name="lineEdit_2"/>
+         </item>
+         <item row="5" column="1">
+          <widget class="QToolButton" name="toolButton_2">
+           <property name="text">
+            <string>...</string>
+           </property>
+          </widget>
+         </item>
+         <item row="5" column="2">
+          <widget class="QPushButton" name="start_xihe_adc_test_display">
+           <property name="text">
+            <string>step5</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <widget class="QGroupBox" name="groupBox_3">
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>600</height>
+          </size>
+         </property>
+         <property name="title">
+          <string>param</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout">
+          <property name="sizeConstraint">
+           <enum>QLayout::SetNoConstraint</enum>
+          </property>
+          <item row="17" column="0">
+           <widget class="QLabel" name="dbc_th_SFDR">
+            <property name="text">
+             <string>dbc_th_SFDR</string>
+            </property>
+           </widget>
+          </item>
+          <item row="24" column="1">
+           <widget class="QLineEdit" name="dc_1f_noise_cancel_input"/>
+          </item>
+          <item row="12" column="1">
+           <widget class="QLineEdit" name="dacOSR_input"/>
+          </item>
+          <item row="23" column="1">
+           <widget class="QLineEdit" name="sig_angle_input"/>
+          </item>
+          <item row="14" column="0">
+           <widget class="QLabel" name="dbc_th_HD">
+            <property name="text">
+             <string>dbc_th_HD</string>
+            </property>
+           </widget>
+          </item>
+          <item row="15" column="0">
+           <widget class="QLabel" name="dbc_th_IMD">
+            <property name="text">
+             <string>dbc_th_IMD</string>
+            </property>
+           </widget>
+          </item>
+          <item row="6" column="1">
+           <widget class="QLineEdit" name="Rl_input"/>
+          </item>
+          <item row="16" column="1">
+           <widget class="QLineEdit" name="dbc_th_IL_input"/>
+          </item>
+          <item row="3" column="1">
+           <widget class="QLineEdit" name="sideband_input"/>
+          </item>
+          <item row="7" column="0">
+           <widget class="QLabel" name="num_interleave">
+            <property name="text">
+             <string>num_interleave</string>
+            </property>
+           </widget>
+          </item>
+          <item row="6" column="0">
+           <widget class="QLabel" name="Rl">
+            <property name="text">
+             <string>Rl</string>
+            </property>
+           </widget>
+          </item>
+          <item row="24" column="0">
+           <widget class="QLabel" name="dc_1f_noise_cancel">
+            <property name="text">
+             <string>dc_1f_noise_cancel</string>
+            </property>
+           </widget>
+          </item>
+          <item row="19" column="0">
+           <widget class="QLabel" name="plot_option">
+            <property name="text">
+             <string>plot_option</string>
+            </property>
+           </widget>
+          </item>
+          <item row="10" column="1">
+           <widget class="QLineEdit" name="window_input"/>
+          </item>
+          <item row="3" column="0">
+           <widget class="QLabel" name="sideband">
+            <property name="text">
+             <string>sideband</string>
+            </property>
+           </widget>
+          </item>
+          <item row="8" column="1">
+           <widget class="QLineEdit" name="num_HD_input"/>
+          </item>
+          <item row="9" column="1">
+           <widget class="QLineEdit" name="num_IMD_input"/>
+          </item>
+          <item row="21" column="1">
+           <widget class="QComboBox" name="imd_mode_cmbox">
+            <item>
+             <property name="text">
+              <string>0</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>1</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+          <item row="12" column="0">
+           <widget class="QLabel" name="dacOSR">
+            <property name="text">
+             <string>dacOSR</string>
+            </property>
+           </widget>
+          </item>
+          <item row="18" column="0">
+           <widget class="QLabel" name="ENOB_include_HD">
+            <property name="text">
+             <string>ENOB_include_HD</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="0">
+           <widget class="QLabel" name="dpdbw">
+            <property name="text">
+             <string>dpdbw</string>
+            </property>
+           </widget>
+          </item>
+          <item row="22" column="1">
+           <widget class="QLineEdit" name="refclk_ratio_input"/>
+          </item>
+          <item row="16" column="0">
+           <widget class="QLabel" name="dbc_th_IL">
+            <property name="text">
+             <string>dbc_th_IL</string>
+            </property>
+           </widget>
+          </item>
+          <item row="8" column="0">
+           <widget class="QLabel" name="num_HD">
+            <property name="text">
+             <string>num_HD</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="0">
+           <widget class="QLabel" name="sideband_sig">
+            <property name="text">
+             <string>sideband_sig</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QLabel" name="sigbw">
+            <property name="text">
+             <string>sigbw</string>
+            </property>
+           </widget>
+          </item>
+          <item row="17" column="1">
+           <widget class="QLineEdit" name="dbc_th_SFDR_input"/>
+          </item>
+          <item row="18" column="1">
+           <widget class="QLineEdit" name="ENOB_include_HD_input"/>
+          </item>
+          <item row="20" column="0">
+           <widget class="QLabel" name="figure_overwrite">
+            <property name="text">
+             <string>figure_overwrite</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="1">
+           <widget class="QLineEdit" name="sideband_sig_input"/>
+          </item>
+          <item row="1" column="1">
+           <widget class="QLineEdit" name="sigbw_input"/>
+          </item>
+          <item row="15" column="1">
+           <widget class="QLineEdit" name="dbc_th_IMD_input"/>
+          </item>
+          <item row="19" column="1">
+           <widget class="QLineEdit" name="plot_option_input"/>
+          </item>
+          <item row="7" column="1">
+           <widget class="QLineEdit" name="num_interleave_input"/>
+          </item>
+          <item row="9" column="0">
+           <widget class="QLabel" name="num_IMD">
+            <property name="text">
+             <string>num_IMD</string>
+            </property>
+           </widget>
+          </item>
+          <item row="22" column="0">
+           <widget class="QLabel" name="refclk_ratio">
+            <property name="text">
+             <string>refclk_ratio</string>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="1">
+           <widget class="QLineEdit" name="fullscale_input"/>
+          </item>
+          <item row="11" column="0">
+           <widget class="QLabel" name="nyquitst_zone">
+            <property name="text">
+             <string>nyquitst_zone</string>
+            </property>
+           </widget>
+          </item>
+          <item row="10" column="0">
+           <widget class="QLabel" name="window">
+            <property name="text">
+             <string>window</string>
+            </property>
+           </widget>
+          </item>
+          <item row="14" column="1">
+           <widget class="QLineEdit" name="dbc_th_HD_input"/>
+          </item>
+          <item row="23" column="0">
+           <widget class="QLabel" name="sig_angle">
+            <property name="text">
+             <string>sig_angle</string>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="0">
+           <widget class="QLabel" name="fullscale">
+            <property name="text">
+             <string>fullscale</string>
+            </property>
+           </widget>
+          </item>
+          <item row="21" column="0">
+           <widget class="QLabel" name="imd_mode">
+            <property name="text">
+             <string>imd_mode</string>
+            </property>
+           </widget>
+          </item>
+          <item row="13" column="0">
+           <widget class="QLabel" name="plot_range">
+            <property name="text">
+             <string>plot_range</string>
+            </property>
+           </widget>
+          </item>
+          <item row="11" column="1">
+           <widget class="QLineEdit" name="nyquitst_zone_input"/>
+          </item>
+          <item row="2" column="1">
+           <widget class="QLineEdit" name="dpdbw_input"/>
+          </item>
+          <item row="13" column="1">
+           <widget class="QLineEdit" name="plot_range_input"/>
+          </item>
+          <item row="20" column="1">
+           <widget class="QLineEdit" name="figure_overwrite_input"/>
+          </item>
+          <item row="0" column="0">
+           <widget class="QLabel" name="fs">
+            <property name="text">
+             <string>fs</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QLineEdit" name="fs_input"/>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+   <item>
+    <widget class="QTextBrowser" name="xihe_adc_test_dnc_ans"/>
+   </item>
+  </layout>
+ </widget>
+ <tabstops>
+  <tabstop>lineEdit</tabstop>
+  <tabstop>lineEdit_2</tabstop>
+  <tabstop>fs_input</tabstop>
+  <tabstop>sigbw_input</tabstop>
+  <tabstop>dpdbw_input</tabstop>
+  <tabstop>sideband_input</tabstop>
+  <tabstop>sideband_sig_input</tabstop>
+  <tabstop>fullscale_input</tabstop>
+  <tabstop>Rl_input</tabstop>
+  <tabstop>num_interleave_input</tabstop>
+  <tabstop>num_HD_input</tabstop>
+  <tabstop>num_IMD_input</tabstop>
+  <tabstop>window_input</tabstop>
+  <tabstop>nyquitst_zone_input</tabstop>
+  <tabstop>dacOSR_input</tabstop>
+  <tabstop>plot_range_input</tabstop>
+  <tabstop>dbc_th_HD_input</tabstop>
+  <tabstop>dbc_th_IMD_input</tabstop>
+  <tabstop>dbc_th_IL_input</tabstop>
+  <tabstop>dbc_th_SFDR_input</tabstop>
+  <tabstop>ENOB_include_HD_input</tabstop>
+  <tabstop>plot_option_input</tabstop>
+  <tabstop>figure_overwrite_input</tabstop>
+  <tabstop>imd_mode_cmbox</tabstop>
+  <tabstop>refclk_ratio_input</tabstop>
+  <tabstop>sig_angle_input</tabstop>
+  <tabstop>dc_1f_noise_cancel_input</tabstop>
+  <tabstop>toolButton</tabstop>
+  <tabstop>start_xihe_adc_test_display</tabstop>
+  <tabstop>smp_trans</tabstop>
+  <tabstop>start_xihe_adc_test</tabstop>
+  <tabstop>xihe_adc_test_dnc_ans</tabstop>
+  <tabstop>start_xihe_adc_test_dnc</tabstop>
+  <tabstop>toolButton_2</tabstop>
+  <tabstop>scrollArea</tabstop>
+  <tabstop>start_xihe_adc_test_regset</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>
